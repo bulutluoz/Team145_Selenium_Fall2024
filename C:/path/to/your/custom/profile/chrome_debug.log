@@ -1,3 +1,7 @@
-[37261:259:0907/173229.042889:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.120 (not a warning)
-[37261:259:0907/173229.311566:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[37261:259:0907/173233.908590:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[37567:259:0907/174728.453904:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.120 (not a warning)
+[37567:259:0907/174728.706968:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[37567:259:0907/174730.097698:INFO:CONSOLE(31)] "PixelYourSite Free version 9.6.2", source: https://wisequarter.com/ (31)
+[37567:259:0907/174730.135459:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 3.4.1", source: https://wisequarter.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 (2)
+[37567:259:0907/174730.790970:INFO:CONSOLE(31)] "PixelYourSite Free version 9.6.2", source: https://wisequarter.com/ (31)
+[37567:259:0907/174730.791078:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 3.4.1", source: https://wisequarter.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 (2)
+[37567:259:0907/174731.038666:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
