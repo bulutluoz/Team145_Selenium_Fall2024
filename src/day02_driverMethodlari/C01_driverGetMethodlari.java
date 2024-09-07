@@ -9,10 +9,10 @@ public class C01_driverGetMethodlari {
     public static void main(String[] args) throws InterruptedException {
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-infobars");
-        options.addArguments("--disable-default-apps");
-        options.addArguments("--disable-notifications");
-        options.addArguments("--start-maximized");
+        //options.addArguments("--disable-infobars");
+        //options.addArguments("--disable-default-apps");
+        //options.addArguments("--disable-notifications");
+        //options.addArguments("--start-maximized");
         options.addArguments("user-data-dir=C:/path/to/your/custom/profile");
 
         System.setProperty("Webdriver.chrome.driver","kurulumDosyalari/chromedriver");
