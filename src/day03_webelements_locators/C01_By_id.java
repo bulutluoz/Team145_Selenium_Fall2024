@@ -43,10 +43,17 @@ public class C01_By_id {
         System.out.println(aramaSonucElementi.getText()); // 4 Products Found
 
 
+        String aramaSonucYazisi = aramaSonucElementi.getText(); // 4 Products Found
 
+        aramaSonucYazisi = aramaSonucYazisi.replaceAll("\\D",""); // "4"
 
+        int aramaSonucSayisi = Integer.parseInt(aramaSonucYazisi);
 
-        Thread.sleep(5000);
+        if (aramaSonucSayisi > 0){
+            System.out.println("Urun arama testi PASSED");
+        }else System.out.println("Urun arama testi FAILED");
+
+        Thread.sleep(3000);
         driver.quit();
 
     }
