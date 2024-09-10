@@ -90,10 +90,26 @@ public class C04_Xpath {
         } else System.out.println("Urun filtreleme testi FAILED");
 
         //10-Ilk urunu tiklayin
+        driver.findElement(By.xpath("(//*[@*='prod-img'])[1]"))
+                .click();
+
         //11- Urun fiyatinin 40 ile 200 arasinda oldugunu test edin
+        WebElement urunFiyatElementi = driver.findElement(By.xpath("//span[@id='priceproduct']"));
+
+        String urunFiyatYazisi = urunFiyatElementi.getText(); // $50.00
+
+        urunFiyatYazisi = urunFiyatYazisi.replaceAll("\\D","");
+
+        double urunFiyati = Double.parseDouble(urunFiyatYazisi) / 100 ; // 50.00
+
+
+        if (urunFiyati>=40 && urunFiyati<=200){
+            System.out.println("Ilk urun fiyat testi PASSED");
+        } else System.out.println("Ilk urun fiyat testi FAILED");
+
         //12-Sayfayi kapatin
 
-        ReusableMethods.bekle(15);
+        ReusableMethods.bekle(3);
         driver.quit();
     }
 }
