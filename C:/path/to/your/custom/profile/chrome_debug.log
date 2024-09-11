@@ -1,3 +1,3 @@
-[80549:259:0910/215948.760009:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.120 (not a warning)
-[80549:259:0910/215949.030888:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[80549:259:0910/220009.091401:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[69769:259:0911/195626.735206:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.120 (not a warning)
+[69769:259:0911/195627.009236:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[69769:259:0911/195636.952806:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
