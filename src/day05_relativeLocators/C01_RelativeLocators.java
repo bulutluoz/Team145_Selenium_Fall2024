@@ -86,6 +86,27 @@ public class C01_RelativeLocators {
         }else System.out.println("Relative1 camera testi FAILED");
 
 
+        // 2- Motor telefonun solunda seklinde locate edelim
+        driver.get("https://testotomasyonu.com/relativeLocators");
+        ReusableMethods.bekle(3);
+
+        WebElement motorTelefonElementi = driver.findElement(By.id("pictext8"));
+
+        // relative locator ile 2.kez DSLR camerayi locate edelim
+
+        WebElement dslrRelative2 = driver.findElement(RelativeLocator.with(By.id("pictext7")).toLeftOf(motorTelefonElementi));
+
+        dslrRelative2.click();
+
+        urunIsimElementi = driver.findElement(By.xpath("(//*[text()='DSLR Camera'])[1]"));
+
+        actualUrunIsmi = urunIsimElementi.getText();
+
+        if (expectedUrunIsmi.equalsIgnoreCase(actualUrunIsmi)){
+            System.out.println("Relative2 camera testi PASSED");
+        }else System.out.println("Relative2 camera testi FAILED");
+
+
 
         ReusableMethods.bekle(3);
         driver.quit();
